@@ -1,0 +1,733 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+div.bx-wrapper{
+    box-shadow: none;
+    border: none;
+    background:transparent;
+  }
+  .fhs{
+    background: url("../img/holiday2013_front.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    height: 630px;    
+  }
+  .fhs .navbar{
+    height: 80px;
+  }
+  .fhs .navbar-default{
+    border: 0;
+  }
+  .fhs .chang-nav{
+    background-color: rgba(0, 0, 0, .0);
+  }
+  .navbar-default .navbar-nav > li{
+    padding-top: 10px;
+  }
+   
+  .navbar-default .navbar-nav > li> a {
+    font-size: 25px;
+    color: #fff;
+    transition: all ease-in-out 100ms;
+  }
+  .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand{
+    font-size: 25px;
+    color: #fff;
+    transition: all ease-in-out 100ms;
+  }
+  .navbar-nav > li{
+    padding-right: 30px;
+  }    
+  .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active,
+  .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover
+  {
+  color: #c56c24;
+  transition: all .2s ease-in-out;
+  
+  }
+  .scrolled {
+    transition: 0.5s ease;
+   }
+   
+   .scrolled.navbar {
+     height: 80px; 
+     background-color: #fff;
+     transition: 0.5s ease;
+   
+   }
+   .scrolled.navbar .nav .item {
+     line-height: 40px;
+     transition: 0.5s ease;
+   }
+   
+   .scrolled.navbar .nav .item .contact {
+     display: inline-block;
+     background-color: #ffffff;
+     height: 40px;
+     line-height: 30px;
+     padding: 5px;
+     border-radius: 2px;
+     transition: 0.5s ease;
+   }
+   
+   .scrolled.navbar .logo {
+     display: inline-block;
+     margin-top: 5px;
+     margin-left: 5%;
+     width: 40px;
+     height: 40px;
+     background-color: firebrick;
+     transition: 0.5s ease;
+   }
+.head h1{
+    text-align: center;
+    padding-top: 200px;
+    color: #c56c24;
+    font-size: 150px;
+    font-family: 'Herr Von Muellerhoff', cursive;  
+  }
+  .head h2{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    margin-top: -50px;
+  }
+  @media (max-width :767px){
+    .head h1 {
+      padding-top: 100px;
+     }
+  }
+  .head p{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-family: 'Source Sans Pro', sans-serif;  
+  }
+  @media (max-width :767px){
+    .head p{
+      font-size: 30px;
+  
+    }
+  }
+  .head button{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    height: 45px;
+    width: 140px;
+    font-size: 23px;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    background-color: #fff;
+    
+  }
+  .head button:hover{
+    background-color: #c59d5f;
+    color: #000;
+  }
+  .welcome{
+    height: 500px;
+  }
+  @media(max-width:767px){
+    .welcome{
+      margin-bottom: 70px;
+    }
+  }
+  .welcome .welco{
+    background-color: #fff;
+    text-align: center;
+    height: 424px;
+    margin: 0 auto;
+    margin-top: 77px;
+    width: 93%;
+  }
+  @media(max-width:767px){
+    .welcome .welco{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .welcome .welco h1{
+    font-size: 70px;
+    color: #cf9b67;
+    padding-top: 30px;
+    font-family: 'Great Vibes', cursive;      
+  }
+  @media(max-width:767px){
+    .welcome .welco h1{
+      padding-top: 20px;
+    }
+  }
+  .welcome .welco h2{
+    font-size: 50px;
+    font-weight: bold;
+    color:#383c50;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+  }
+  @media(max-width:767px){
+    .welcome .welco h2{
+      font-size: 34px;
+    }
+  }
+  .welcome .welco p{
+    font-size: 21px;
+    padding-left: 22px;
+    padding-right: 20px;
+    color: #515150;
+    font-family: "ff-meta-serif-web-pro", Georgia, serif;
+    
+  }
+  @media(max-width:767px){
+    .welcome .welco p{
+      font-size: 18px;
+    }
+  }
+  .welcome .welco p a{
+    text-decoration: underline;
+    letter-spacing: 3px;
+  }
+  .welcome .welc{
+    width: 93%;
+    height: 420px;
+    object-fit: cover;
+    margin-top: 80px;
+    border: 4px solid #ccc;
+    letter-spacing: 2px;
+  }
+  @media (max-width: 767px){
+    .welcome .welc{
+      height: 100%;
+      margin-top: 30px;
+      width: 100%;
+    }
+  }
+  @media(min-width:768px) and (max-width: 992px){
+    .welcome .welc{
+      margin-left: 10px;
+    }
+  }
+  .delicios{
+    background: url("../img/gastronomika-2-6.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    height: 400px;    
+    margin-top: 50px;
+  }
+  @media(max-width:767px){
+    .delicios{
+      margin-top: 300px;
+    }
+  }
+  .delicios .delic{
+    text-align: center;
+    color: #fff;
+  }
+  .delicios .delic{
+    padding-top: 50px;
+  }
+  .delicios .delic h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 10px;
+    font-family: 'Great Vibes', cursive;      
+  }
+  .delicios .delic h3{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    line-height: 45px;
+    letter-spacing: 10px;
+  }
+  .menu {
+    margin-top: 30px;
+    height: 500px;
+  }
+  .menu .foo{
+    margin: 0 auto;
+    margin-top: 81px;
+    height: 400px;
+    width: 100%;
+  }
+  .menu .food{
+    margin-left: 38px;
+  }
+  .menu img{
+    width: 250px;
+    height: 187px;
+  }
+  .menu .spe{
+    margin-top: 25px;
+  }
+  .menu .discover{
+    background-color: #fff;
+    text-align: center;
+    height: 424px;
+    width: 93%;
+    margin-top: 55px;
+  }
+  .menu .discover h1{
+    font-size: 50px;
+    color: #c56c24;
+    padding-top: 40px;
+    font-family: 'Great Vibes', cursive;    
+  }
+  .menu .discover h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #383c50;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    
+  }
+  .menu .discover p{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    font-size: 21px;
+    padding-left: 22px;
+    padding-right: 20px;
+    font-family: "ff-meta-serif-web-pro", Georgia, serif;
+    
+  }
+  .menu .discover p a{
+    text-decoration: underline;  
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 15px;
+  }
+  @media(max-width :767px){
+    .menu .discover{
+      height: 420px;
+      margin-top: 70px;
+    }
+  }
+  .delicio{
+    background: url("../img/gastronomika-2-7.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    height: 400px;    
+    position: relative;
+    margin-top: 50px;
+  }
+  @media(max-width:767px){
+    .delicio{
+      margin-top: 474px;
+      height: 200px;
+    }
+  }
+  @media(min-width:768px) and (max-width: 992px){
+    .delicio{
+      margin-top: 532px;
+      height: 300px;
+    }
+  }
+  .delicio .deli{
+    text-align: center;
+    color: #fff;
+  }
+  .delicio .deli{
+    padding-top: 50px;
+  }
+  .delicio .deli h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 10px;
+    font-family: 'Great Vibes', cursive;      
+  }
+  .delicio .deli h3{
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    line-height: 45px;
+    letter-spacing: 10px;  
+  }
+  @media(max-width:767px){
+    .delicio .deli{
+      padding-top: 0;
+    }
+  }
+  @media(max-width:767px){
+    .delicio .deli h1{
+      font-size: 43px;
+      padding-top: 30px;
+    }
+  }
+  @media (max-width: 767px){
+    .delicio .deli h3{
+      font-size: 40px;
+      line-height: 30px;
+    }
+  }
+  .special{
+    height: 510px;
+  }
+  .special .spec{
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 424px;
+    width: 93%;
+    
+  }
+  @media(max-width:767px){
+    .special .spec{
+      height: 420px;
+      margin-top: 70px;
+    }
+  }
+  .special .spec h1{
+    font-size: 50px;
+    color: #c56c24;
+    padding-top: 40px;
+    font-family: 'Great Vibes', cursive;    
+  }
+  .special .spec h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #383c50;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+  }
+  .special .spec p{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: #383c50;
+    font-size: 21px;
+    padding-left: 22px;
+    padding-right: 20px;
+    font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  }
+  .special .spec p a{
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .special .spe{
+    width: 93%;
+    height: 424px;;
+    margin-top: 80px;
+    border: 4px solid #ccc;
+  }
+  @media (max-width: 767px){
+    .special .spe{
+      height: 100%;
+      margin-top: 30px;
+      width: 100%;
+    }
+  }
+  @media(min-width:768px) and (max-width: 992px){
+    .special .spe {
+      width: 94%;
+      margin-left: 10px;  
+    }
+  }
+  .functi{
+    background: url("../img/8791_ho_05_p_2048x1536.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    height: 400px;    
+    position: relative;
+    margin-top: 50px;
+  }
+  @media(max-width:767px){
+    .functi{
+      margin-top: 553px;
+      height: 200px;
+    }
+  }
+  @media(min-width:768px) and (max-width: 992px){
+    .functi{
+      margin-top: 568px;
+      height: 300px;
+    }
+  }
+  .functi .funct{
+    text-align: center;
+    color: #fff;
+  }
+  .functi .funct{
+    padding-top: 50px;
+  }
+  @media(max-width:767px){
+    .functi .funct{
+      padding-top: 0;
+    }
+  }
+  .functi .funct h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #c56c24;
+    padding-top: 10px;
+    font-family: 'Great Vibes', cursive;      
+  }
+  .functi .funct h3{
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    line-height: 45px;
+    letter-spacing: 10px;  
+  }
+  @media(max-width:767px){
+    .functi .funct h3{
+      line-height: 20px;
+      font-size: 50px;
+    }
+  }
+  
+  .evint .tedal{
+    width: 93%;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 77px;
+  }
+  .evint .even{
+    background-color: #fff;
+    text-align: center;
+    height: 420px;
+    width: 93%;
+    margin-top: 77px;
+
+  }
+  @media(max-width:767px){
+    .evint .even{
+      margin: 0 auto;
+      height: 420px;
+      margin-top: 70px;
+    }
+  }
+  @media(min-width:768px) and (max-width: 992px){
+    .evint .even{
+      margin: 0 auto;    
+    }
+  }
+  .evint .even h1{
+    font-size: 50px;
+    color: #c56c24;
+    padding-top: 40px;
+    font-family: 'Great Vibes', cursive;    
+  }
+  .evint .even h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #383c50;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+  }
+  .evint .even p{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    font-size: 21px;
+    padding-left: 22px;
+    padding-right: 20px;
+    font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  }
+  .evint .even p a{
+    text-decoration: underline;  
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .cler-fix{
+      clear: both;
+  }
+  .foter {
+      margin-top: 80px;
+    height: 600px;     
+    color: #fff;
+    background-color: #383c50;
+  }
+  @media(max-width:1200px){
+    .foter{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .foter p{
+    font-size: 15px;
+    opacity: 0.8;
+    font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  }
+  @media(min-width:993px) and (max-width:1200px){
+    .foter p{
+      font-size: 14px;
+    }
+  }
+  .foter .fote{
+    margin-top: 150px;
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .foter .fote{
+      margin-top: 20px;
+    }
+  }
+  @media(max-width:767px){
+    .foter .fote{
+      margin-top: 30px;
+    }
+  }
+  .foter .fote .lo{
+    margin-bottom: 20px;
+  }
+  .foter .fote h1{
+    margin-bottom: 20px;
+  }
+  .foter .fote p{
+    opacity: .7;
+    font-family: 'Source Sans Pro', sans-serif;  
+    
+  }
+  .foter .con{
+    margin-top: 150px;
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .foter .con{
+      margin-top: 20px;
+    }
+  }
+  @media(max-width:767px){
+    .foter .con{
+      margin-top: 30px;
+    }
+  }
+  .foter .con p{
+    display: inline;
+    text-align: center;
+    margin-left: 10px;
+    opacity: 0.7;
+    font-family: 'Source Sans Pro', sans-serif;  
+    
+  }
+  .foter .con p span{
+    margin-left: 20px;
+  }
+  .foter .phon{
+    margin-top: 10px;
+  }
+  .foter .phon p{
+    display: inline;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;    
+  }
+  .foter .email{
+    margin-top: 10px;
+  }
+  .foter .email p{
+    display: inline;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;    
+  }
+  .foter .subscribe h2{
+    font-size: 23px;
+    margin-top: 5px;  
+  }
+  .foter .subscribe input{
+    border: 1px solid #ddd;
+    color: #fff;
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;  
+    font-size: 20px;
+  }
+  .foter .subscribe button{
+    border: 1px solid #ddd;
+    color: #fff;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;  
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  @media (max-width:1200px){
+    .foter .subscribe button{
+      margin-top: 10px;
+      margin-left: 0px;
+    }
+  }
+  
+  .foter .subscribe button:hover{
+    background-color: #6e9baa;  
+  }
+  .foter .opening{
+    margin-top: 150px;
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .foter .opening{
+      margin-top: 20px;
+    }
+  }
+  @media(max-width:767px){
+    .foter .opening{
+      margin-top: 30px;
+    }
+  }
+  .foter .opening P{
+    line-height: 30PX;
+    font-family: 'Source Sans Pro', sans-serif;    
+  }
+  
+  .foter .opening p a{
+    color: #cf9b67;
+    text-decoration: underline;
+    font-size: 22px;
+    margin-left: 16px;
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .foter .opening p a{
+      font-size: 18px;
+    }
+  }
+  .follow i{
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer; 
+  }
+  .follow i:hover{
+    color: #c56c24;
+  }
+  .copy{
+    height: 50px;
+    margin-top: 168px;
+    background-color: rgb(32, 31, 31);
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .copy{
+      margin-top: 20px;
+    }
+  }
+  .copy h1{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Great Vibes', cursive;  
+  }
+  /*End Footer*/

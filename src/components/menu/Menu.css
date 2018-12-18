@@ -1,0 +1,584 @@
+span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    max-width: -1px;
+    background-color: white;
+    font-size: 19px;
+    line-height: 1.27316;
+    font-weight: bold;
+    opacity: 0.94;
+    color: #383c50;
+  }
+  .name{
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    position: relative;
+    max-width: -1px;
+    background-color: white;
+    font-size: 19px;
+    line-height: 1.27316;
+    color: #383c50;
+    opacity: 0.94;
+  }
+  .both{
+    position: absolute;
+    top: 17px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0;
+    border: 0;
+    height: 3px;
+    display: block;
+    background-image: radial-gradient(circle closest-side, #b3b3b3 99%, transparent 1%);
+    background-position: bottom;
+    background-size: 6px 3px;
+    background-repeat: repeat-x;
+  }
+  @media(max-width:767px){
+    .dash{
+      display: none;
+    }
+  }
+  @media(min-width:993px) and (max-width:1200px){
+    .dash{
+      display: none;
+    }
+  }
+  div.bx-wrapper{
+    box-shadow: none;
+    border: none;
+    background:transparent;
+  }
+  .fhm{
+    background: url("../img/901051_604137032930766_812725153_o.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    height: 285px;    
+    position: fixed;
+    position: relative;
+  }
+  .fhm .navbar{
+    height: 80px;
+  }
+  .fhm .navbar-default{
+    border: 0;
+  }
+  .fhm .chang-nav{
+    background-color: rgba(0, 0, 0, .0);
+  }
+  .navbar-default .navbar-nav > li{
+    padding-top: 10px;
+  }
+   
+  .navbar-default .navbar-nav > li> a {
+    font-size: 25px;
+    color: #fff;
+    transition: all ease-in-out 100ms;
+  }
+  .navbar-nav > li{
+    padding-right: 30px;
+  }    
+  .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active
+  {
+  color: #c56c24;
+  transition: all .2s ease-in-out;
+  
+  }
+  .scrolled {
+    transition: 0.5s ease;
+   }
+   
+   .scrolled.navbar {
+     height: 80px; 
+     background-color: #fff;
+     transition: 0.5s ease;
+   
+   }
+   .scrolled.navbar .nav .item {
+     line-height: 40px;
+     transition: 0.5s ease;
+   }
+   
+   .scrolled.navbar .nav .item .contact {
+     display: inline-block;
+     height: 40px;
+     line-height: 30px;
+     padding: 5px;
+     border-radius: 2px;
+     transition: 0.5s ease;
+     background-color: #ffffff;
+   }
+   
+   .scrolled.navbar .logo {
+     display: inline-block;
+     margin-top: 5px;
+     margin-left: 5%;
+     width: 40px;
+     height: 40px;
+     background-color: firebrick;
+     transition: 0.5s ease;
+   }
+  .header h1{
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: 'Great Vibes', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+  }
+
+  .title{
+    margin-top: 80px;
+  }
+  .title p{
+    font-size: 18px;
+    opacity: 0.82;
+    color: #383c50;   
+    line-height: 30px; 
+  }
+  @media(max-width:767px){
+    .title h2{
+      font-size: 17px;
+    }
+  }
+  .starts{
+    margin-top: 40px;
+  }
+  .starts .start hr{
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .starts .start .dishs{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .starts .start .dish{
+    border: 2px solid #383c50;
+    padding-left: 10px;
+    margin-top: -11px;
+  }
+  .starts .start .dish h3{
+    font-size: 18px;
+    position: relative;  
+  }
+  .starts .start h2{
+    padding-left: 5px;
+    padding-right: 6px;
+    background-color:#383c50;;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  .starts .start .dishs h3{
+    position: relative;
+    font-size: 18px;
+  }
+  .starts .start .dishs p{
+    font-size: 15px;
+    font-weight: bold;
+    opacity: .82;
+    opacity: .7;
+    font-family: "Roboto", sans-serif;
+  }
+  .starts .start  h1{
+    color: #383c50;  
+    font-weight: bold;  
+  }
+  .separator--flower{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .soup .cacke hr{
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #383c50;    
+  }
+  .soup .cacke h1{
+    color: #383c50;  
+    font-weight: bold;
+  }
+  .soup .cacke .dishs{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .soup .cacke .dish{
+    border: 2px solid #383c50;
+    padding-left: 10px;
+    margin-top: -11px;
+  }
+  .soup .cacke .dish h3{
+    font-size: 18px;
+    position: relative;
+  }
+  .soup .cacke h2{
+    padding-left: 12px;
+    background-color:#383c50;;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: -11px;
+    margin-top: 0px;
+    font-size: 26px;
+  }
+  .soup .cacke .dishs h3{
+    font-size: 19px;
+    position: relative;
+  }
+  .soup .cacke .dishs p{
+    font-size: 15px;
+    font-weight: bold;
+    opacity: .82;
+    opacity: .7;
+    font-family: "Roboto", sans-serif;
+  }
+  .lunch{
+    background: url("../img/gastronomika-2-7.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    height: 250px;    
+    position: fixed;
+    position: relative;
+  }
+  .lunch h1{
+    text-align: center;
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 85px;
+    text-transform: uppercase;
+  }
+  .luch .lnch .special{
+    margin-top: 80px;
+  }
+  .luch .lnch .lun{
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  .luch .lnch .lun h3{
+    font-size: 18px;
+    position: relative;  
+  }
+  .luch .lnch .lun p{
+    font-size: 15px;
+    font-weight: bold;
+    opacity: .82;
+    opacity: .7;
+    font-family: "Roboto", sans-serif;
+  }
+  .dineer{
+    background: url("../img/gastronomika-2-2.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    height: 250px;    
+    position: fixed;
+    position: relative;
+  }
+  .dineer h1{
+    text-align: center;
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 85px;
+    text-transform: uppercase;
+  }
+  .diner .dinr .special{
+    margin-top: 80px;
+  }
+  .diner .dinr .dieer{
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  .diner .dinr .dieer h3{
+    font-size: 18px;
+    position: relative;  
+  }
+  .diner .dinr .dieer p{
+    font-size: 15px;
+    font-weight: bold;
+    opacity: .82;
+    opacity: .7;
+    font-family: "Roboto", sans-serif;
+  }
+  .breakfast{
+    background: url("../img/menu-book-description-dimmed-3.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    height: 250px;    
+    position: fixed;
+    position: relative;
+  }
+  .breakfast h1{
+    text-align: center;
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 85px;
+    text-transform: uppercase;
+  }
+  .breakfa .breakf .special{
+    margin-top: 80px;
+  }
+  .breakfa .breakf .break{
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  .breakfa .breakf .break h3{
+    font-size: 18px;
+    position: relative;  
+  }
+  .breakfa .breakf .break p{
+    font-size: 15px;
+    font-weight: bold;
+    opacity: .82;
+    opacity: .7;
+    font-family: "Roboto", sans-serif;
+  }
+  .wine{
+    background: url("../img/Article-Second-Cheapest-Wine-By-the-Glass-Restaurant-Dining-NYC-Gramercy-Tavern-Juliette-Pope-David-Lynch-Jose-Andres.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    height: 250px;    
+    position: fixed;
+    position: relative;
+  }
+  .wine h1{
+    text-align: center;
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 85px;
+  }
+  .win .wne .special{
+    margin-top: 80px;
+  }
+  .win .wne .wie{
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  .win .wne .wie h3{
+    font-size: 18px;
+    position: relative;  
+  }
+  .win .wne .wie p{
+    font-size: 15px;
+    font-weight: bold;
+    opacity: .7;
+    font-family: "Roboto", sans-serif;
+  }
+  .reservations{
+    background: url("../img/treat-yo-self34836_words_done.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    height: 250px;    
+    position: fixed;
+    position: relative;
+    color: #fff;
+  }
+  .reservations h1{
+    text-align: center;
+    padding-top: 56px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .reservations h1:hover{
+    color: #ccc;
+  }
+  .reservations p{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 36px;
+    font-weight: bold;
+  }
+  .foter {
+    background-color: #21252b;  
+    height: 600px;     
+    color: #fff;
+  }
+  @media(max-width:1200px){
+    .foter{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .foter p{
+    font-size: 15px;
+    opacity: 0.8;
+    font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  }
+  @media(min-width:993px) and (max-width:1200px){
+    .foter p{
+      font-size: 14px;
+    }
+  }
+  .foter .fote{
+    margin-top: 150px;
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .foter .fote{
+      margin-top: 20px;
+    }
+  }
+  @media(max-width:767px){
+    .foter .fote{
+      margin-top: 30px;
+    }
+  }
+  .foter .fote .lo{
+    margin-bottom: 20px;
+  }
+  .foter .fote h1{
+    margin-bottom: 20px;
+  }
+  .foter .fote p{
+    opacity: .7;
+    font-family: 'Source Sans Pro', sans-serif;  
+    
+  }
+  .foter .con{
+    margin-top: 150px;
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .foter .con{
+      margin-top: 20px;
+    }
+  }
+  @media(max-width:767px){
+    .foter .con{
+      margin-top: 30px;
+    }
+  }
+  .foter .con p{
+    display: inline;
+    text-align: center;
+    margin-left: 10px;
+    opacity: 0.7;
+    font-family: 'Source Sans Pro', sans-serif;  
+    
+  }
+  .foter .con p span{
+    margin-left: 20px;
+  }
+  .foter .phon{
+    margin-top: 10px;
+  }
+  .foter .phon p{
+    display: inline;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;    
+  }
+  .foter .email{
+    margin-top: 10px;
+  }
+  .foter .email p{
+    display: inline;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;    
+  }
+  .foter .subscribe h2{
+    font-size: 23px;
+    margin-top: 5px;  
+  }
+  .foter .subscribe input{
+    border: 1px solid #ddd;
+    color: #fff;
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;  
+    font-size: 20px;
+  }
+  .foter .subscribe button{
+    border: 1px solid #ddd;
+    color: #fff;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;  
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  @media(max-width:1200px){
+    .foter .subscribe button{
+      margin-top: 10px;
+      margin-left: 0px;
+    }
+  }
+  .foter .subscribe button:hover{
+    background-color: #6e9baa;  
+  }
+  .foter .opening{
+    margin-top: 150px;
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .foter .opening{
+      margin-top: 20px;
+    }
+  }
+  @media(max-width:767px){
+    .foter .opening{
+      margin-top: 30px;
+    }
+  }
+  .foter .opening P{
+    line-height: 30PX;
+    font-family: 'Source Sans Pro', sans-serif;    
+  }
+  
+  .foter .opening p a{
+    color: #cf9b67;
+    text-decoration: underline;
+    font-size: 22px;
+    margin-left: 16px;
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .foter .opening p a{
+      font-size: 18px;
+    }
+  }
+  .follow i{
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer; 
+  }
+  .follow i:hover{
+    color: #c56c24;
+  }
+  .copy{
+    height: 50px;
+    margin-top: 168px;
+    background-color: rgb(32, 31, 31);
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .copy{
+      margin-top: 20px;
+    }
+  }
+  .copy h1{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Great Vibes', cursive;  
+  }
+  /*End Footer*/

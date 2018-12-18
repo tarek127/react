@@ -1,0 +1,681 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  div.bx-wrapper{
+    box-shadow: none;
+    border: none;
+    background:transparent;
+  }
+  .fh{
+    background: url("../img/chef-2585791_960_720.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    height: 285px;    
+    position: relative;
+  }
+  .fh .navbar{
+    height: 80px;
+  }
+  .fh .navbar-default{
+    border: 0;
+  }
+  .fh .chang-nav{
+    background-color: rgba(0, 0, 0, .0);
+  }
+  .navbar-default .navbar-nav > li{
+    padding-top: 10px;
+  }
+   
+  .navbar-default .navbar-nav > li> a {
+    font-size: 25px;
+    color: #fff;
+    transition: all ease-in-out 100ms;
+  }
+  .navbar-nav > li{
+    padding-right: 30px;
+  }    
+  .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active
+  {
+  color: #c56c24;
+  transition: all .2s ease-in-out;
+  
+  }
+  .scrolled {
+    transition: 0.5s ease;
+   }
+   
+   .scrolled.navbar {
+     height: 80px; 
+     background-color: #fff;
+     transition: 0.5s ease;
+   
+   }
+   .scrolled.navbar .nav .item {
+     line-height: 40px;
+     transition: 0.5s ease;
+   }
+   
+   .scrolled.navbar .nav .item .contact {
+     display: inline-block;
+     background-color: #ffffff;
+     height: 40px;
+     line-height: 30px;
+     padding: 5px;
+     border-radius: 2px;
+     transition: 0.5s ease;
+   }
+   
+   .scrolled.navbar .logo {
+     display: inline-block;
+     margin-top: 5px;
+     margin-left: 5%;
+     width: 40px;
+     height: 40px;
+     background-color: firebrick;
+     transition: 0.5s ease;
+   }
+  .header h1{
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: 'Great Vibes', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+  }
+  .header p{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  .header button{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    height: 50px;
+    width: 140px;
+    font-size: 23px;
+    background: transparent;
+    color: #fff;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  .header button:hover{
+      border-color: #c56c24;
+  }
+  .discover{
+    height: 600px;
+  }
+  @media(max-width:991px){
+    .discover{
+      height: 700px;
+    }
+  }
+  .discover .when{
+    margin-top: 80px;
+    background-color: #fff;
+  }
+  @media(max-width:991px){
+    .discover .when{
+      margin-top: 0px;
+      text-align: center;
+    }
+  }
+  .discover h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: #383c50;  
+  }
+  .discover p{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Times New Roman", Times, serif;
+    color: #383c50;
+    opacity: 0.9;
+  }
+  @media(max-width:991px){
+    .discover p{
+      font-size: 18px;
+    }
+  }
+  .discover p a{
+    color:#a35a16;
+    text-transform: uppercase; 
+    text-decoration: underline;
+  }
+  .discover p a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .discover .abou{
+    width:100%;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 80px;
+    border: 2px solid #ddd;
+  }
+  @media(max-width:991px){
+    .discover .abou{
+      margin-left: 0px;
+    }
+  }
+  .we{
+    background: url("../img/chili-1569665_960_720.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    height: 300px;    
+    position: relative;
+    margin-top: 50px;
+  }
+  @media(max-width:991px){
+    .we{
+      height: 150px;
+    }
+  }
+  .we h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 80px;
+    color:#fff;
+    font-weight: bold;
+    padding-left: 70px;
+  }
+  @media(max-width:991px){
+    .we h1{
+      text-align: center;
+      padding-left: 0;
+      padding-top: 16px;
+      font-size: 60px;
+    }
+  }
+  .since .ser{
+    text-align: center;
+  }
+  .since .ser h1{
+    font-size: 40px;
+    color: #383c50;  
+  }
+  .since .ser h3{
+    font-size: 35px;
+    color: #383c50;
+    opacity: 0.9;
+    line-height: 40px;
+  }
+  @media(max-width:991px){
+    .since .ser h3{
+      font-size: 25px;
+    }
+  }
+  .since .ser h4{
+    font-size: 25px;
+    color: #383c50;
+    opacity: 0.9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .since .ser p{
+    font-size: 20px;
+    color: #383c50;
+    opacity: 0.8;
+  }
+  @media(max-width:991px){
+    .since .ser p{
+      font-size: 18px;
+    }
+  }
+  .since .sinc .in{
+    width: 100%;
+  }
+  @media(max-width:991px){
+    .since .sinc .in {
+      margin-top: 240px;
+    }
+  }
+  .team{
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .team .title h3{
+    border-bottom: 2px solid;
+    width: 194px;
+    text-transform: uppercase;
+    color: #383c50;
+  }
+  .team .title h1{
+    font-size: 36px;
+    color: #383c50;
+    line-height: 42px;
+    margin-top: 50px;
+  }
+  @media(max-width:991px){
+    .team .title h1{
+      font-size: 24px;
+      margin-top: 30px;
+    }
+  }
+  .team .title p{
+    padding-top: 15px;
+    color:#383c50;
+    font-size: 19px;
+    opacity: 0.9;
+    padding-right: 10px;
+  }
+  @media(max-width:991px){
+    .team .title p{
+      font-size: 19px;
+    }
+  }
+  .team .chef{
+    margin-left: 40px;
+  }
+  .team .chef h3{
+    border-bottom: 2px solid;
+    width: 63px;
+    color: #383c50;
+    text-transform: uppercase;
+    margin-left: 90px;
+  }
+  @media(max-width:991px){
+    .team .chef h3{
+      height: 100%;
+      margin-left: -42px;
+    }
+  }
+  .team .chef .che{
+    width: 80%;
+    height: 90%;
+    margin-top: 50px;
+    margin-left: 96px;
+  }
+  @media(max-width:991px){
+    .team .chef .che{
+      width: 100%;
+      height: 100%;
+      margin-left: -43px;
+    }  
+  }
+  .team .chef h4{
+    margin-left: 88px;
+    font-size: 25px;
+    margin-top: 25px;
+    color: #383c50;
+  }
+  @media(max-width:991px){
+    .team .chef h4{
+      text-align: center;
+      margin-left: -74px;
+    }
+  }
+  .team .chef h5{
+    margin-left: 88px;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #383c50;
+    opacity: 0.7;
+  }
+  @media(max-width:991px){
+    .team .chef h5{
+      text-align: center;
+      margin-left: -74px;
+    }
+  }
+  .team .chef p{
+    margin-left: 88px;
+    color: #383c50;
+    opacity: 0.9;
+    margin-top: 10px;
+    font-size: 19px;
+  }
+  @media(max-width:991px){
+    .team .chef p{
+      margin-left: -74px;
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+  .chefsd{
+    margin-top: 900px;
+    margin-left: 10px;
+  }
+  @media(max-width:991px){
+    .chefsd{
+      margin-top: 30px;
+    }
+  }
+  .chefsd .chefs1 img{
+    width: 90%;
+    height: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  @media(max-width:991px){
+    .chefsd .chefs1 img{
+      width: 85%;
+    }
+  }
+  .chefsd .chefs1 img .john{
+    width: 85%;
+    height: 335px;
+  }
+  @media(max-width:991px){
+    .chefsd .chefs1 img .john{
+      height:100% 
+    }
+  }
+  .chefsd .chefs1 h4{
+    font-size: 25px;
+    margin-top: 25px;
+    font-weight: 700px;
+    color: #383c50;
+  }
+  @media(max-width:991px){
+    .chefsd .chefs1 h4{
+      text-align: center;
+    }
+  }
+  .chefsd .chefs1 h5{
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #383c50;
+    opacity: 0.7;
+  }
+  @media(max-width:991px){
+    .chefsd .chefs1 h5{
+      text-align: center;
+    }
+  }
+  .chefsd .chefs1 p{
+    color: #383c50;
+    opacity: 0.9;
+    margin-top: 10px;
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 400px;
+  }
+  @media(max-width:991px){
+    .chefsd .chefs1 p{
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+  .feed{
+    margin-top: 1450px;
+  }
+  @media(max-width:991px){
+    .feed{
+      margin-top: 0px;
+    }
+  }
+  .feed .say h1{
+    font-size: 50px;
+    font-family: "Great Vibes", cursive;
+    color: rgb(145, 89, 34);  
+    text-align: center;
+  }
+  .feed .say p{
+    text-align: center;
+    font-size: 30px;
+    opacity: 0.8;
+    margin-top: 30px;
+    color:#383c50;
+    font-weight: bold;  
+  }
+  @media(max-width:757px){
+    .feed .say .p{
+      font-size: 20px;
+      margin-bottom: 0px;
+    }
+  }
+  div.bx-wrapper{
+    box-shadow: none;
+    border: none;
+  }
+  .feed .pra blockquote{
+    border-left: none;
+  }
+  .feed .bx-wrapper {
+    margin-top: 70px;
+  }
+  .feed .pra p {
+    margin-top: 80px;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 55px;
+    line-height: 25px;
+    color: #21252b;
+  }
+  @media(max-width:767px){
+    .feed .pra p{
+      font-size: 18px;
+      margin-top: -14px;
+      width: 100%;
+      margin-left: 25px;
+    }
+  }
+  .feed blockquote > p:before {
+    content: open-quote;
+  }
+  .feed blockquote > p::after{
+    content: close-quote;
+  }
+  .feed .pra h3{
+    margin-left: 100px;
+    font-family: 'Great Vibes', cursive;  
+    font-size: 40px;  
+    color: #383c50;
+  }
+  @media(max-width:767px){
+    .feed .pra h3{
+      text-align: center;
+      margin-left: 10px;
+    }
+  }
+  .feed .womn{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: 30px;
+    width: 50%;
+    max-width: 80%;
+    border: 3px solid #fff;
+  }
+  .cler-fix{
+    clear: both;
+}
+  .foter {
+    background-color: #21252b;  
+    height: 600px;     
+    color: #fff;
+  }
+  @media(max-width:1200px){
+    .foter{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .foter p{
+    font-size: 15px;
+    opacity: 0.8;
+    font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  }
+  @media(min-width:993px) and (max-width:1200px){
+    .foter p{
+      font-size: 14px;
+    }
+  }
+  .foter .fote{
+    margin-top: 150px;
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .foter .fote{
+      margin-top: 20px;
+    }
+  }
+  @media(max-width:767px){
+    .foter .fote{
+      margin-top: 30px;
+    }
+  }
+  .foter .fote .lo{
+    margin-bottom: 20px;
+  }
+  .foter .fote h1{
+    margin-bottom: 20px;
+  }
+  .foter .fote p{
+    opacity: .7;
+    font-family: 'Source Sans Pro', sans-serif;  
+    
+  }
+  .foter .con{
+    margin-top: 150px;
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .foter .con{
+      margin-top: 20px;
+    }
+  }
+  @media(max-width:767px){
+    .foter .con{
+      margin-top: 30px;
+    }
+  }
+  .foter .con p{
+    display: inline;
+    text-align: center;
+    margin-left: 10px;
+    opacity: 0.7;
+    font-family: 'Source Sans Pro', sans-serif;  
+    
+  }
+  .foter .con p span{
+    margin-left: 20px;
+  }
+  .foter .phon{
+    margin-top: 10px;
+  }
+  .foter .phon p{
+    display: inline;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;    
+  }
+  .foter .email{
+    margin-top: 10px;
+  }
+  .foter .email p{
+    display: inline;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;    
+  }
+  .foter .subscribe h2{
+    font-size: 23px;
+    margin-top: 5px;  
+  }
+  .foter .subscribe input{
+    border: 1px solid #ddd;
+    color: #fff;
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;  
+    font-size: 20px;
+  }
+  .foter .subscribe button{
+    border: 1px solid #ddd;
+    color: #fff;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;  
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  @media (max-width:1200px){
+    .foter .subscribe button{
+      margin-top: 10px;
+      margin-left: 0px;
+    }
+  }
+  
+  .foter .subscribe button:hover{
+    background-color: #6e9baa;  
+  }
+  .foter .opening{
+    margin-top: 150px;
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .foter .opening{
+      margin-top: 20px;
+    }
+  }
+  @media(max-width:767px){
+    .foter .opening{
+      margin-top: 30px;
+    }
+  }
+  .foter .opening P{
+    line-height: 30PX;
+    font-family: 'Source Sans Pro', sans-serif;    
+  }
+  
+  .foter .opening p a{
+    color: #cf9b67;
+    text-decoration: underline;
+    font-size: 22px;
+    margin-left: 16px;
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .foter .opening p a{
+      font-size: 18px;
+    }
+  }
+  .follow i{
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer; 
+  }
+  .follow i:hover{
+    color: #c56c24;
+  }
+  .copy{
+    height: 50px;
+    margin-top: 168px;
+    background-color: rgb(32, 31, 31);
+  }
+  @media(min-width:768px) and (max-width: 991px){
+    .copy{
+      margin-top: 20px;
+    }
+  }
+  .copy h1{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Great Vibes', cursive;  
+  }
+  /*End Footer*/
+  .john{
+    height: 345px;
+  }
